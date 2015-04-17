@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <title>彩虹手风琴菜单(sherlock221b)</title>
+
+    <!-- 防止缓存 -->
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Expires" CONTENT="0">
+
+    <link rel="stylesheet"  href="../flex.css" type="text/css" />
+
+    <style type="text/css">
+            body{
+                margin: 0;
+                padding-top: 50px;
+            }
+
+            .bg-red{
+                background: #FF0000;
+            }
+            .bg-og{
+                background: #FF7F00;
+            }
+            .bg-yellow{
+                background: #FFFF00 ;
+            }
+            .bg-green{
+                background: #00FF00 ;
+            }
+            .bg-cyan{
+                background: #00FFFF ;
+            }
+            .bg-blue{
+                background: #0000FF;
+            }
+            .bg-purple{
+                background: #8B00FF;
+            }
+
+            .rainbow{
+                width: 500px;
+                margin: 0 auto;
+            }
+        .rainbow >div{
+            height: 100px;
+
+            transition : all ease 0.6s ;
+            -webkit-transition : all ease 0.6s;
+        }
+
+            .rainbow >div:hover{
+                -webkit-box-flex: 9 ;
+                -webkit-flex: 9;
+                -moz-box-flex: 9;
+                -moz-flex: 9;
+                -ms-flex: 9;
+                flex: 9;
+            }
+        
+        @media screen and (max-width : 500px) {
+            .rainbow{
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+
+               <div class="fx-row rainbow">
+
+                   <div class="fx-col bg-red"></div>
+                   <div class="fx-col bg-og"></div>
+                   <div class="fx-col bg-yellow"></div>
+                   <div class="fx-col bg-green"></div>
+                   <div class="fx-col bg-cyan"></div>
+                   <div class="fx-col bg-blue"></div>
+                   <div class="fx-col bg-purple"></div>
+
+               </div>
+
+
+
+</body>
+</html>

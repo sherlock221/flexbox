@@ -1,0 +1,67 @@
+.point {
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/point.png"); }
+
+.color-og {
+  color: #f69e47; }
+
+.ib {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.button.button-energized {
+  border-color: #f4893c;
+  background-color: #f59854;
+  color: #fff; }
+
+.button {
+  border-color: #b2b2b2;
+  background-color: #f8f8f8;
+  color: #444;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0 12px;
+  min-width: 52px;
+  min-height: 47px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  vertical-align: top;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  line-height: 42px;
+  cursor: pointer; }
+
+button.ca-sm {
+  font-size: 15px;
+  height: rem(64px);
+  line-height: rem(64px);
+  padding: 0;
+  width: rem(182px);
+  min-width: rem(182px);
+  min-height: rem(64px);
+  border-radius: 4px; }
+
+button.ca-bg {
+  height: rem(88px);
+  line-height: rem(88px);
+  width: rem(548px);
+  text-align: center;
+  font-size: 15px;
+  padding: 0;
+  min-width: rem(548px);
+  min-height: rem(88px);
+  border-radius: 4px; }
+
+button:disabled {
+  background-color: #aaaaaa !important;
+  border-color: #aaaaaa !important;
+  opacity: 1 !important; }
+
+/*# sourceMappingURL=shop.css.map */
